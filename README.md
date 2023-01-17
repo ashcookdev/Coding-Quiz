@@ -3,30 +3,32 @@
 Name
 Console-Finances
 
-https://ashcookdev.github.io/Console-Finances/
+https://ashcookdev.github.io/Coding-Quiz/
 
 Description
-This is a challenge where we have been asked to analyse financial data using javascript and to present our findings in the console in the browser.
+This is a challenge where we have been asked to create a coding quiz using javascript, and to save the scores to the local storage.
 
 Badges
 No badge required
 
 Visuals
-Please see a screenshot of the console
 
-image
+![image](https://user-images.githubusercontent.com/117311931/212986664-271093a0-9243-4e37-be0d-0ea50675cd69.png)
+
+![image](https://user-images.githubusercontent.com/117311931/212986919-3755f928-b034-4383-ad9b-30c3281aa6d2.png)
+
 
 Installation
-When loading the browser please right click and select the inspect option, there you will find the console and the information for the challenge will be there.
+Click on the start button to load the first question, check your score at the end.
 
 Usage
-This can be used to manipulate financial data.
+Test your coding knowledge.
 
 Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+Contact Ashley Cook 
 
 Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Project Finished 
 
 Contributing
 No contributions needed.
