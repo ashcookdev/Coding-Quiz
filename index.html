@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz</button>
+
+      </div>
+
+      <audio id="acorrect" src="sfx/correct.wav"></audio>
+<audio id="wrong" src="sfx/incorrect.wav"></audio>
+
+      <div id="question1">
+      </div>
+      <h5 id="result1"></h5> 
+      <h5 id="timetaken1"></h5>
+
+      <div id="question2">
+      </div>
+      <h5 id="result2"></h5> 
+      <h5 id="timetaken2"></h5>
+
+      <div id="question3">
+      </div>
+      <h5 id="result3"></h5> 
+      <h5 id="timetaken3"></h5>
+
+      <div id="question4">
+      </div>
+      <h5 id="result4"></h5> 
+      <h5 id="timetaken4"></h5>
+
+      <div id="question5">
+      </div>
+      <h5 id="result5"></h5> 
+      <h5 id="timetaken5"></h5>
+
+      <div id="question6">
+      </div>
+      <h5 id="result6"></h5> 
+      <h5 id="timetaken6"></h5>
+
+      <div id="question7">
+      </div>
+      <h5 id="result7"></h5> 
+      <h5 id="timetaken7"></h5>
+
+      <div id="question8">
+      </div>
+      <h5 id="result8"></h5> 
+      <h5 id="timetaken8"></h5>
+
+      <div id="question9">
+      </div>
+      <h5 id="result9"></h5> 
+      <h5 id="timetaken9"></h5>
+
+      <div id="question10">
+      </div>
+      <h5 id="result10"></h5> 
+      <h5 id="timetaken10"></h5>
+
+
+
+<div id="game-over"></div>
+
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+
+        <p>Your final score is: <span id="final-score"></span>.</p>
+        <div> <button id="results">Analytics</button> </div>
+        Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+    <script src="./questions.js"></script>
+  </body>
+</html>
