@@ -16,7 +16,7 @@ document.getElementById("incorrect").innerHTML = JSON.parse(localStorage.getItem
 clear.addEventListener("click" ,function(event) {
 event.preventDefault();
 event.stopPropagation();
-    localStorage.clear();
+    event.target.localStorage.clear();
 
 
 
